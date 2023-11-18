@@ -1,6 +1,7 @@
 export default (api = {
+  // Pake Env perusahaan saya pak hehe
   getUser: (email, password) => {
-    return fetch("http://YOUR IP ADDRESS:PORT/api/v1/getUser", {
+    return fetch("https://api-oos.jojonomic.com/26193/uts-mobile/login-user", {
       method: "POST",
       headers: {
         Accept: "application/json",
@@ -14,8 +15,8 @@ export default (api = {
   },
 
   createUser: (email, password) => {
-    console.log("in here");
-    return fetch("http://YOUR IP ADDRESS:PORT/api/v1/createUser", {
+    // Pake Env perusahaan saya pak hehe
+    return fetch("https://api-oos.jojonomic.com/26193/uts-mobile/create-user", {
       method: "POST",
       headers: {
         Accept: "application/json",

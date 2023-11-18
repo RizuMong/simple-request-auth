@@ -4,7 +4,7 @@ import { Text, StyleSheet, View } from "react-native";
 const Header = () => {
   return (
     <View style={styles.viewStyle}>
-      <Text style={styles.textStyle}>First App</Text>
+      <Text style={styles.textStyle}>UTS Login dan Register</Text>
     </View>
   );
 };
